@@ -1,0 +1,5 @@
+name: Gaurish Sharma Live
+markdown: redcarpet
+pygments: true
+permalink: /:year/:month/:title.html
+

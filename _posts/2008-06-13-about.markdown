@@ -1,0 +1,18 @@
+---
+author: gaurish
+comments: true
+date: 2008-06-13 16:44:00+00:00
+layout: post
+slug: about
+title: About
+wordpress_id: 13
+---
+
+Gaurish Sharma is an Information Technology student. He aims to be a techie. He is Interested in Hardcore programming & other tech jobs, works on computer for long hours & sleeps on internet. Recently he has been bitten by the openSource & Linux bug. Too likes reading books, newspapers, listing to music, photography & gardening. He has a strong urge to learn new things and is very curious in general.  
+
+  
+
+You can contact him _contact at gaurishsharma dot com_
+
+Did you enjoy this Post?.Please give your feedback at contact at gaurishsharma.com.
+Read more at GaurishSharma.com

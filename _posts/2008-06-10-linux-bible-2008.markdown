@@ -1,0 +1,24 @@
+---
+author: gaurish
+comments: true
+date: 2008-06-10 22:52:00+00:00
+layout: post
+slug: linux-bible-2008
+title: Linux Bible, 2008
+wordpress_id: 8
+---
+
+[![](http://knowfree.net/wp-content/uploads/2008/03/047023019301l.jpg)](http://knowfree.net/wp-content/uploads/2008/03/047023019301l.jpg)  
+>__
+
+> _  
+  
+The Linux Bible 2008 Edition_ is the best first Linux book for new or migrating users. By focusing on the building-block nature of Linux, and offering true up-to-date descriptions of Linux technology, the Bible helps the reader learn how to jump headlong into Linux, regardless of the Linux distribution they choose. Descriptions of different Linux distributions helps users choose the Linux distribution that's right for them. Detailed installation instructions, step-by-step descriptions of key desktop and server components, and the actual distributions on CD and DVD, let readers get started using Linux immediately. The Bible will serve a broad range of readers, from those starting with Linux to anyone looking to evaluate different Linux distributions. It also covers broad usage including Linux desktops, servers, and firewall/routers.  
+
+
+  
+LINK REMOVED  
+Size: 25.8MB
+
+Did you enjoy this Post?.Please give your feedback at contact at gaurishsharma.com.
+Read more at GaurishSharma.com
