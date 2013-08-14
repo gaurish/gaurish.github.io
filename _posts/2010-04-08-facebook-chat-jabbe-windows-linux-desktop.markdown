@@ -38,19 +38,19 @@ here I would demonstrate to do this on Windows with pidgin.<!-- more -->
 
 
 
-	
+
   * protocol: XMPP
 
-	
+
   * username: your facebook username . Its the same which you get in step-1
 
-	
+
   * Domain: chat.facebook.com
 
-	
-  * password: <_enter your facebook password_>
 
-	
+  * password: _your facebook password_
+
+
   * Check Remember Password
 
 
@@ -60,16 +60,16 @@ here I would demonstrate to do this on Windows with pidgin.<!-- more -->
 
 
 
-	
+
   * Uncheck "_Require SSL/TLS_"
 
-	
+
   * Check "_Allow plaintext auth over unencrypted streams_"
 
-	
+
   * Connect port: 5222
 
-	
+
   * Connect Server: _chat.facebook.com _
 
 
