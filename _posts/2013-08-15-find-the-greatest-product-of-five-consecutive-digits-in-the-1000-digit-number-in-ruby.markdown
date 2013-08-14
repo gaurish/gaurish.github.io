@@ -1,7 +1,6 @@
 ---
 author: gaurish
 comments: true
-date: page.date
 layout: post
 title: Find the greatest product of five consecutive digits in the 1000-digit number in Ruby
 categories:
@@ -10,11 +9,12 @@ categories:
 - Ruby
 ---
 
-I recently started problems on [Project Euler](http://projecteuler.org) & came across this problem:
+I recently started problems on [Project Euler](http://projecteuler.org) & came across problem #8:
 
-Q. Find the greatest product of five consecutive digits in the 1000-digit number.
+Q. Find the greatest product of five consecutive digits in the 1000-digit number.the number is
 
-n = "73167176531330624919225119674426574742355349194934
+
+`73167176531330624919225119674426574742355349194934
 96983520312774506326239578318016984801869478851843
 85861560789112949495459501737958331952853208805511
 12540698747158523863050715693290963295227443043557
@@ -33,7 +33,7 @@ n = "73167176531330624919225119674426574742355349194934
 07198403850962455444362981230987879927244284909188
 84580156166097919133875499200524063689912560717606
 05886116467109405077541002256983155200055935729725
-71636269561882670428252483600823257530420752963450"
+71636269561882670428252483600823257530420752963450`
 
 Apart from the fact the number is akwardly large, solving this in ruby is easy
 

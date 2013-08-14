@@ -27,7 +27,7 @@ HTML is verbose & becomes hard to maintain specially, if you have a large site. 
 
 **HTML**
 
-[html]
+{% highlight html %}
 <div id="profile">
 <div class="left column">
 <div id="date"><strong>4th June 2012</strong></div>
@@ -38,20 +38,14 @@ HTML is verbose & becomes hard to maintain specially, if you have a large site. 
 <div id="bio">Rails Developer</div>
 </div>
 </div>
-[/html]
+{% endhighlight %}
 
 As you may notice, there are couple of issues with html:
 
 
-
-
 	
   1. Every starting tag has to have a ending tag
-
-	
   2. The number of words & lines are more
-
-	
   3. plain HTML is pain to write & read
 
 
@@ -61,7 +55,7 @@ As you may notice, there are couple of issues with html:
 
 Now, compare this to HAML which basically does the same thing but in lot more human readable form
 
-[html]
+{% highlight haml %}
 #profile
 .left.column
 #date
@@ -73,7 +67,7 @@ Now, compare this to HAML which basically does the same thing but in lot more hu
        %a{:href="www.example.com"}
             example.com
 #bio   Rails Developer
-[/html]
+{% endhighlight %}
 
 So in short,
 
@@ -83,69 +77,15 @@ So in short,
 
 
 
-Syntax
-Description
+#### Syntax     -  Description
+ - `%tag_name` - produces opening & closing tags
+ - `%tag_name.class_name` - add a class attribute to given tag
+ - `%tag_name#id_name` - adds a id attribute to given tag
+ - `-`    - runs the native code(ruby etc) but doesn't not display result
+ - `=`   - runs the native code(ruby etc) and display output
 
+Example:
 
-
-
-
-_%tag_name_
-
-
-produces opening & closing tags
-
-
-
-
-
-
-_%tag_name.class_name_
-
-
-add a class attribute to given tag
-
-
-
-
-
-
-_%tag_name#id_name_
-
-
-adds a id attribute to given tag
-
-
-
-
-
-
-_-_
-
-
-runs the native code(ruby etc) but doesn't not display result
-
-
-
-
-
-
-=
-
-
-runs the native code(ruby etc) and display output
-
-
-
-
-
-
-#body
-
-
-Produces div tag with id="body" as div tag is default
-
-
-
+`#body` - Produces div tag with id="body" as div tag is default
 
 For more, kindly refer to [HAML official site](http://haml.info/)

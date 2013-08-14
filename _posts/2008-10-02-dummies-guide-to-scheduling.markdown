@@ -39,7 +39,7 @@ Mainly there are two mode of this, you need to pick a method which applies to yo
 
 
 
-**Understanding Cron** **Daemon**  
+## Understanding Cron Daemon  
 
 Before we begin we should know how about cron - default linux scheduler   
 
@@ -64,11 +64,6 @@ Enter the month,legal values 1-12
 Enter a Date, legal values 1-31
 Command you want to execute at scheduled time
  
-  
-
-  
-
-  
 
   
 
@@ -80,11 +75,11 @@ use command "visudo" to edit crontab.it would load a editor depending upon your 
 
   
 
-**Things Which are common among both methods  
+## Things Which are common among both methods  
 
   
 
-**1) Create a simple text file in your home folder and name it **"downloads.txt**" & notedown its full path. Insert the *Direct* links of files you want to download into this newly created file. The files given in this would be downloaded by wget automactically.wget can handle http & ftp downloads. After download completes remove the link and enter new ones. insert one link per line. Remember to add direct link only.  
+1) Create a simple text file in your home folder and name it **"downloads.txt**" & notedown its full path. Insert the *Direct* links of files you want to download into this newly created file. The files given in this would be downloaded by wget automactically.wget can handle http & ftp downloads. After download completes remove the link and enter new ones. insert one link per line. Remember to add direct link only.  
 
   
 
@@ -203,7 +198,7 @@ chmod a+x router-reboot.sh
 
 **What you are missing in Linux, comparing to windows?**  
 
-In starting of this post i said, ** **almost perfect choice for downloading. so you gotta missing something. which is ability to power on your PC automatically.  
+In starting of this post i said, *almost* perfect choice for downloading. so you gotta missing something. which is ability to power on your PC automatically.  
 
 I am still searching for a method to start a Linux box automatically at a specific time.   
 

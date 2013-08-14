@@ -31,7 +31,7 @@ Evolution-Data Optimized(Evdo) is a telecommunications standard for the wireless
   * Personal broadband wireless service for a wide range of customers, from business people to students
 
 	
-  * Always on** **& Unlimited Access
+  * Always on & Unlimited Access
 
 	
   * Advantages over WiFi: It does not need a [_wifi hotspot_](http://en.wikipedia.org/wiki/Hotspot_%28Wi-Fi%29)_. _You take the internet with you and surf the web in your car, on the train, in the airport, at a convention, on the road. just about anywhere.

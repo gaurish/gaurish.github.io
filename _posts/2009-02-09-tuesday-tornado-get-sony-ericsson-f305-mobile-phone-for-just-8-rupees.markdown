@@ -29,6 +29,6 @@ Best Of Luck folks!
 ### **Link:[Tuesday Tornado Offer Page](http://shop.in.com/fabulous_day.php)**
 
 
-**
+
 [Update]
-The Offer is now Over!, will notify when new contest starts**
+The Offer is now Over!, will notify when new contest starts

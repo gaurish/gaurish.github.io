@@ -29,15 +29,11 @@ categories:
 
 
 
-* * *
-
-
 
 
 
 this is basic tutorial which makes you understand the basics of Search Engine Optimization (SEO), search engine optimization is more than page optimization, it depends on many factors like link building, quality of incoming links etc.
 So lets start with the basics.
-****
 
 
 
@@ -57,27 +53,26 @@ Its a magic which no one can understand, kidding ![](http://www.whoisdeep.com/wp
 For a human being, to become popular he needs to do something extra ordinary so that whole world can know about it and he becomes known face in the world from nowhere. So same logic applies for websites also, to make your website popular first you need to do something good so that other people know about it, for example: you have a genuine site with good content and once people know about it they talk about the site (provide links, give your site links in forums, sites, blogs etc)
 
 
-> 
+ 
 
-> 
-> #### Search engine optimization is a process of taking something extra ordinary out of your site and let the whole world know about it.
-> 
-> 
-
-
-
-Now to make your site known to<!-- more --> public you will have to do few things on your site.Lets start by explaining things one by one in short which are important part of your site and are helpful for ranking:-
+ 
+ #### Search engine optimization is a process of taking something extra ordinary out of your site and let the whole world know about it.
+ 
+ 
 
 
-**
-On Page Factors**
+
+Now to make your site known to public you will have to do few things on your site.Lets start by explaining things one by one in short which are important part of your site and are helpful for ranking:-
 
 
-**Page Title: **The most important part. Page title plays major role in SEO, your page title must contain the keywords you are optimizing page for. Let me give you one example:
+**On Page Factors**
+
+
+**Page Title:** The most important part. Page title plays major role in SEO, your page title must contain the keywords you are optimizing page for. Let me give you one example:
 Our example keyword is Technology Blog
 
-**_Title 1:_** _Example.com - Your own Technology Blog_
-**_Title 2:_** _Technology Blog - Your own Tech Blog by Example.com_
+**Title 1:** `Example.com - Your own Technology Blog`
+**Title 2:** `Technology Blog - Your own Tech Blog by Example.com`
 
 Now from above 2 examples Title 2 is correct because it gives keywords as first preference than the site. It also includes one more keyword - Tech Blog - so you can optimize for one more keyword on the same page. Here is why Title 1 is not correct.
 
@@ -87,12 +82,12 @@ Title 1 started with the site name i.e. example.com which people are going to ha
 
 This tag should only include the keywords which you are optimizing our page for.In our case the keywords will be technology blog, tech blog. Many people just stuff the Meta Keywords tag with useless keywords but there is no point in doing that, you will never get top tanking with it. Adding long list of keywords in the tag won't give you top ranking at any cost.
 
-**Meta**** Description: **This tag plays very important part in the ranking. Many search engines fetch content from this tag. Best example about this would be search engine Google. Google fetches description of the site from Meta Description tag and if not present, page content is used. So if you use your keywords in a smarter way then it makes sense to both, users searching for the keyword as well as search engines.
+**Meta** Description: This tag plays very important part in the ranking. Many search engines fetch content from this tag. Best example about this would be search engine Google. Google fetches description of the site from Meta Description tag and if not present, page content is used. So if you use your keywords in a smarter way then it makes sense to both, users searching for the keyword as well as search engines.
 Let me explain this by examples:
 
-**_Description 1:_** Technology Blog, Tech Blog, Technology Blog India, Tech Blog India. Example.com is India's best Technology Blog. Example.com is India's best Tech Blog.
-**_
-Description 2: _**Technology Blog - India's First Tech Blog with latest happening in the technology world. Technology news, tech reviews and more
+**Description 1:** `Technology Blog, Tech Blog, Technology Blog India, Tech Blog India. Example.com is India's best Technology Blog. Example.com is India's best Tech Blog.`
+
+**Description 2:** `Technology Blog - India's First Tech Blog with latest happening in the technology world. Technology news, tech reviews and more`
 
 Now in this 2nd Description is more readable than the first one. It makes more sense to users reading as well as for search engines. The keywords are not repeated many times but are framed such way that it makes proper sentence as well as includes keywords more than once.
 
@@ -131,9 +126,9 @@ Once modifications are done with the site, you will have to move on to submittin
 
 **There is no need to submit the sites in search engines**. The ones who say, we will submit your site to xxx number of search engines and all are just fake. Till now (as far as I know) only 3 major search engines are present; Google, Yahoo and MSN. These 3 search engines have their different crawlers. Rest of the search engines just use combination of search results generated by these 3 major search engines. There are few more search engines which use their own crawlers but they still use combination of search data from these 3 major search engines.
 
-To get your site listed all you have to do is, get a link from the site which is already listed in search engines. For example: if any of your friends is having a site or blog which is already listed in search engine, ask him to provide your link on his site, search engine will visit his site, find your link (if easily visible), follow the link and jump to your site. so this way your site will also get listed. **OR **if you have RSS feed of your site, you can submit it to Yahoo, Technorati and other blog search networks. This should help to get the site crawled quickly.
+To get your site listed all you have to do is, get a link from the site which is already listed in search engines. For example: if any of your friends is having a site or blog which is already listed in search engine, ask him to provide your link on his site, search engine will visit his site, find your link (if easily visible), follow the link and jump to your site. so this way your site will also get listed. **OR** if you have RSS feed of your site, you can submit it to Yahoo, Technorati and other blog search networks. This should help to get the site crawled quickly.
 
-Now let's move to **Submitting the site to directories: **For this you will have to pick selected directories only i.e. no point in submitting the sites to the directories which are meant just for spam purpose. Generally the spam directories have many links on the page as sponsored section. I have seen few directories with keyword stuffed links in header, footer and right navigation area. So it is better to stay way from these sites.
+Now let's move to Submitting the site to directories: For this you will have to pick selected directories only i.e. no point in submitting the sites to the directories which are meant just for spam purpose. Generally the spam directories have many links on the page as sponsored section. I have seen few directories with keyword stuffed links in header, footer and right navigation area. So it is better to stay way from these sites.
 
 Directories like [Dmoz](http://www.dmoz.org/), [Best of the world](http://www.botw.org/) (BOTW) are examples of good directories. (BOTW is paid now)
 
@@ -143,14 +138,14 @@ The list of good directories can be found [here](http://www.webproworld.com/view
 
 The other important factor in search engine optimization is:
 
-**Link**** Building. **this factor mainly deals with getting links from other websites or exchanging links with other
+**Link** Building. this factor mainly deals with getting links from other websites or exchanging links with other
 
 websites. You can use sites like [Link Market](http://www.linkmarket.net/), [Link Metro](http://www.linkmetro.com/) etcâ€¦
 
 But I must remind you, **these link exchange sites are helpful only for basic purpose, for serious SEO purpose, you need to go way beyond these link exchange sites.**
 
-That's it, I this is the end of 3year old post. Hope it is helpful to some people. And pleas excuse me for errors, if any
-****
+That's it, I this is the end of 3year old post. Hope it is helpful to some people. And please excuse me for errors, if any
+
 
 Source:[who else, me](http://www.gaurishsharma.com/)
 

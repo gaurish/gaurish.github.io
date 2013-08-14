@@ -26,18 +26,18 @@ categories:
 
 
 
-What GA could not track until recently was social engagement, if someone click Like button,tweets or shared your site on social network. How do you track it? by default that social media traffic would be shown as DIRECT traffic which is not what you want.  But good news is Google analytics now support this and they are calling this __trackSocial_ method
+What GA could not track until recently was social engagement, if someone click Like button,tweets or shared your site on social network. How do you track it? by default that social media traffic would be shown as DIRECT traffic which is not what you want.  But good news is Google analytics now support this and they are calling this `trackSocial` method
 
 
 
 
 
 
-the syntax is as follows:<!-- more -->
+the syntax is as follows:
 
 
 
-_trackSocial(network, socialAction, opt_target, opt_pagePath)
+`_trackSocial(network, socialAction, opt_target, opt_pagePath)`
 
 Where:
 
@@ -71,7 +71,7 @@ I was tasked to implement this feature on a client website, so they can see soci
 ## Basics
 
 
-Facebook & twitter does not want to share their data with Google but it seems google has figured out a way.  basically,  __trackSocial_ i sJavaScript based integration & Its not that complex. what we gotta do is to bind callback functions to javascript events. these events could facebook like/unlike, facebook send & twitter tweet. These callback function would be then invoked whenever user generated an social media related event. using this function callback GA script knows that action of tweeting,liking has taken place & GA sent sents the tracking beacon.
+Facebook & twitter does not want to share their data with Google but it seems google has figured out a way.  basically,  `trackSocial` is JavaScript based integration. what we gotta do is to bind callback functions to javascript events. these events could facebook like/unlike, facebook send & twitter tweet. These callback function would be then invoked whenever user generated an social media related event. using this function callback GA script knows that action of tweeting,liking has taken place & GA sent sents the tracking beacon.
 
 
 ## What you need

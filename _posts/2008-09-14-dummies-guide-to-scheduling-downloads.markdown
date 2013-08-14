@@ -70,11 +70,11 @@ Connection name have to be replaced with the name of dialer you created in xp. t
 
 rasdial  /disconnect  
 
-4. C<strike>reate another file similar to first two with following text and save as </strike>  
+4. <strike>Create another file similar to first two with following text and save as </strike>  
 
-<strike>_shutdown -S -T 0_</strike>_ __**See The [Update] at end of the post**  
+<strike>shutdown -S -T 0</strike>
+**See The [Update] at end of the post**  
 
-_  
 
 5. Enable Hibernation by Start control > Run. type  `powercfg.cpl` and check enable hibernation. ensure there is necessary free space available.  
 

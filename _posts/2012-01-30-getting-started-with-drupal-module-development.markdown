@@ -27,15 +27,15 @@ However, it is commendable on Drupal's part that it managed to work around PHP's
 
 Hook System is nothing but a glorified naming convention adopted universally by Drupal Community. Infact, entire architecture of Drupal is build around this naming convention. According to this naming convention, the module name you choose must be unique, and should be all lowercase, containing only letters & numbers, always starting with a letter. Within the module itself, all functions must then be prefixed with the module filename, followed by an underscore, and then action(called hook in drupal land) in following way
 
-function ModuleName_action()
+`function ModuleName_action()`
 
 here,
-ModuleName = name of your module
-action = pre-defined hook
+`ModuleName` = name of your module
+`action` = pre-defined hook
 
 These hooks are pre-defined and are called automatically by Drupal when specific event occurs, so you just have to define an appropriate hook/action & Drupal will take care of the rest. for example, your module was called "mymodule" & want to add some help text. so, in custom module, you will add function named "_mymodule_help_".
 
-[php]
+{% highlight php %}
 /**
 * This Implements hook_help()
 */
@@ -43,7 +43,8 @@ function mymodule_help($path, $arg){
     if($path=='admin/structure'){
         return t('This is the sample help text');
     }
-}[/php]
+}
+{% endhighlight %}
 
 This function gets called automatically by Drupal when a page is displayed, then we check if _$path_ is_ admin/structure,_ if yes. then the help text is displayed. Simple!
 

@@ -22,11 +22,10 @@ Google's blogger software for blogging is easy to use and effective. But the maj
 I myself have migrated to a self-hosted wordpress driven blog and would share my experience; the most seamless way to make the switch.
 
 Please Note: As i was running blogger with a custom domain(_gaurishsharma.com_) so switch was relatively easier for me, as i didn't have to use any dirty scripts to redirect traffic from old blogger blog to new wordpress blog.
-**
-**
 
 
-## ** Aims of this Guide:**
+
+## Aims of this Guide:
 
 
 

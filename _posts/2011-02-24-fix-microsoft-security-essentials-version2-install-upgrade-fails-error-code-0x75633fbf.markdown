@@ -41,15 +41,15 @@ This issue may have been caused as some of Microsoft Security Essentials (Versio
 ## Step-by-Step Guide on how to fix
 
 
-** **
 
-**Step 1:- Uninstall the traces of Microsoft Security Essentials which was partially installed during the upgrade.
 
-Step 2:- Run Scan to verify integrity of all system files
+**Step 1** :- Uninstall the traces of Microsoft Security Essentials which was partially installed during the upgrade.
 
-**
+**Step 2** :- Run Scan to verify integrity of all system files
 
-** Step 3:- Reinstall Microsoft Security Essentials.**
+
+
+**Step 3** :- Reinstall Microsoft Security Essentials.
 
 _Note: Please try the following steps in the same order as provided above. If Step 1 did not work, please proceed to the next step. Please note down any error messages or notable changes you find as you try the steps. Post them in comments, I will try to help you_
 

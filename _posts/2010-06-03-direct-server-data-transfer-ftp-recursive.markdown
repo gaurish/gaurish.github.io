@@ -16,13 +16,13 @@ categories:
 
 
 	
-  * Number of images were over 90,000 and size of about 95GB which rules of conventional method of first downloading everything from old server  on your own machine and then uploading to new server is not feasible.
+  - Number of images were over 90,000 and size of about 95GB which rules of conventional method of first downloading everything from old server  on your own machine and then uploading to new server is not feasible.
 
 	
-  * Shared hosting provider only gave FTP access. so it rules out rsync,scp,bittorrent or anything similar based transfers. host even refused to achieve the 90,000 files.
+  - Shared hosting provider only gave FTP access. so it rules out rsync,scp,bittorrent or anything similar based transfers. host even refused to achieve the 90,000 files.
 
 
-In short, you will have to move all files and database via FTP.  Here is how:<!-- more -->
+In short, you will have to move all files and database via FTP.  Here is how:
 
 
 ### Get the Database Dump:
@@ -38,7 +38,7 @@ In short, you will have to move all files and database via FTP.  Here is how:<!
   2. Now open webbroswer, Now goto the localisation where you extracted it. For example, location for me was http://gaurishsharma.com/sqlbuddy(this is no longer accessible). yours might be similar.
 
 	
-  3. Login with your username and password.Click on **Export **and follow on screen instruction. now a database dump file *.SQL will be create in _../sqlbuddy/exports/export.sql_. Which you can use to restore database.
+  3. Login with your username and password.Click on `Export` and follow on screen instruction. now a database dump file `*.SQL` will be create in `../sqlbuddy/exports/export.sql`. Which you can use to restore database.
 
 
 
@@ -57,9 +57,9 @@ In short, you will have to move all files and database via FTP.  Here is how:<!
 
 
 
-    
-    wget -r -c -nH -l0 ftp://USERNAME:PASSWORD@ftp.domain.com/ --append-output=websitedownload-wget.log -b
-
+{% highlight sh %}    
+  $  wget -r -c -nH -l0 ftp://USERNAME:PASSWORD@ftp.domain.com/ --append-output=websitedownload-wget.log -b
+{% endhighlight %}
 
 Where:
 
@@ -69,14 +69,13 @@ ftp.domain.com: is the URL or IP address of your old FTP server
 
 Now, after you run its command. you get a output like this
 
-Continuing in background, pid 16554.
+`Continuing in background, pid 16554.
+jailshell-3.2$`
 
--jailshell-3.2$
-
-This means that wget is now downloading all the files from your old server in background, so you can go for sleep and check back. to check the process you can read logfile _websitedownload-wget.log_
+This means that wget is now downloading all the files from your old server in background, so you can go for sleep and check back. to check the process you can read logfile `websitedownload-wget.log`
 
 
-### **Explanation of Options**
+### Explanation of Options
 
 
 -r flag: recursively download all files and directories.

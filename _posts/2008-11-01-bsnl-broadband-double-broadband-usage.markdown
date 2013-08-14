@@ -216,13 +216,4 @@ BSNL.Corporate Office.
 
   
 
-[Update] The Offer is now over as it was valid only during november month, hope you enjoyed doubled Usage**.  
-
-**  
-
-  
-
-Did you enjoy this post? Why not leave a comment and continue the conversation, or subscribe to my [feed](http://gslive.blogspot.com/feeds/posts/default) and get articles like this delivered automatically each day to your feed reader. If you don't have a feed reader, you can always have these articles delivered to your email inbox every day. Click here to [sign up](http://www.feedburner.com/fb/a/emailverifySubmit?feedId=2080213&loc=en_US).
-
-Did you enjoy this Post?.Please give your feedback at contact at gaurishsharma.com.
-Read more at GaurishSharma.com
+[Update] The Offer is now over as it was valid only during november month, hope you enjoyed doubled Usage.

@@ -34,7 +34,7 @@ Recently, I asked this question to group of people & they have given different a
 Are these people correct? this is what cloud computing means? Well...yes & no. Confused?
 
 
-## What is<!-- more --> Cloud?
+## What is Cloud?
 
 
 Cloud is different things to different people. The perspectives are very different; depending upon whom you are you asking this question.  such as,
@@ -66,6 +66,6 @@ cloud combines these resources into a simple and uniform set of computing resour
 To me, when someone says cloud; depending upon the context it could represent any of the following:
 Cloud can be Application hosting platform(Google App engine, Microsoft Azure), Cloud can be Consumer Internet service like Gmail Dropbox, Cloud can be On-demand virtual machines,Cloud can be way of managing I.T infrastructure(servers,storage, networks etc) & so on...
 
-Hence, I like to think Cloud computing more as marketing term which doesn't mean much, but at same time its a term that most people across spectrum can understand enough get hint on what it it could it be related to.  This marketing term also  helps to push latest advances in Virtualization Technology, IT resource managent, Deployment & provisioning tools,  Standardization & Inter-_Operability efforts. _. so the term might be vague & may have different meaning depending upon the context which it is an useful term explaining all these areas.
+Hence, I like to think Cloud computing more as marketing term which doesn't mean much, but at same time its a term that most people across spectrum can understand enough get hint on what it it could it be related to.  This marketing term also  helps to push latest advances in Virtualization Technology, IT resource managent, Deployment & provisioning tools,  Standardization & Inter-_Operability efforts_. so the term might be vague & may have different meaning depending upon the context which it is an useful term explaining all these areas.
 
 So, that how I think about The cloud. what comes to your mind when you think about cloud?

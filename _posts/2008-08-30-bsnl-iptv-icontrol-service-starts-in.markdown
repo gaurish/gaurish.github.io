@@ -11,7 +11,7 @@ categories:
 - News
 ---
 
-Bsnl in association with askh optic fibre has kicked off Internet Protocol Television(IPTV) service under the brand name of **iControl. **There was a soft launch of this service earlier this month but it was not open for public till 28th Aug.Now the service is open to public.
+Bsnl in association with askh optic fibre has kicked off Internet Protocol Television(IPTV) service under the brand name of *iControl*. There was a soft launch of this service earlier this month but it was not open for public till 28th Aug.Now the service is open to public.
 
 Now your old useless LandLine telephone can now stream your favorite TV channels via Internet route, which basically means your TV would be more interactive,customizable and flexible. It should not be confused with Internet Television where you watch TV on your PC and pay to watch channels & Bandwidth. Under iControl, you only have to pay a fixed charge for Channels and bandwidth is free. The service is currently available in 4 cities. Delhi,Mumbai ,Jaipur, Jodhpur
 
@@ -45,11 +45,11 @@ Pretty handy, this basically means now you can watch your favorite television so
 
 Ahh..advertisements. why do they think we are stupid enough to take ads as a feature.don't burden us with ads, Please?
 
-> **PLAY GAMES WITH FRIENDS AND COMMUNITY  
-**Play a whole lot of interactive games like sudoku among your icontrol group.  
+> PLAY GAMES WITH FRIENDS AND COMMUNITY  
+Play a whole lot of interactive games like sudoku among your icontrol group.  
 
 
-****
+
 
 Not a big deal! I think its more usefull for kids i would instead pass my time doing something more productive.
 
@@ -57,12 +57,12 @@ Not a big deal! I think its more usefull for kids i would instead pass my time d
 Send and receive instant messages form other icontrol users. Make friends. Create your own address book.
 
 Interesting.....maybe it can help me find a date. hehe   
-****
+
 
 > **Triple Play:**  
 GO 3 IN 1: VOICE, DATA AND VIDEO  
 icontrol, internet connection and telephone service on one single cord.  
-****
+
 
 Phone,Broadband and Television via your old landline. pretty neat 
 
@@ -73,7 +73,6 @@ Now, you can replay a live channel and watch cricket again and again and again.
 
 Nice thing to have since you regularly miss your fav matches due angry boss.
 
-### 
 
 ##### What Channels are available?
 
@@ -92,8 +91,3 @@ The most biggest disadvantage is that it requires a Broadband connection from BS
 If you already have Broadband connection, then IPTV is smart choice. otherwise DTH seems the best way to go.
 
 For more information visit [iControl Website](http://www.icontrol.in) and call BSNL call center no. 1500
-
- 
-
-Did you enjoy this Post?.Please give your feedback at contact at gaurishsharma.com.
-Read more at GaurishSharma.com
