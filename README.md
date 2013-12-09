@@ -1,3 +1,5 @@
-== My Blog
-to read, goto **[Gaurish Sharma Live](http://www.gaurishsharma.com)**
+# My Blog
+To read, goto:
+
+-  **[Gaurish Sharma Live](http://www.gaurishsharma.com)**
 
