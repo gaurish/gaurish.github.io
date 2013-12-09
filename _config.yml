@@ -1,4 +1,7 @@
-name: Gaurish Sharma Live
+name: Gaurish Sharma Live | Sharing What I Have Learned
 markdown: redcarpet
 pygments: true
 permalink: /:year/:month/:title.html
+post:
+  template: _layouts/post.html
+  extension: markdown
