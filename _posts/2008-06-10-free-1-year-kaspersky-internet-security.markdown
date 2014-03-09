@@ -28,6 +28,3 @@ Kaspersky Internet Security 2009 is the all-in-one security solution that offers
 6. [Download](http://dnl-us5.kaspersky-labs.com/products/english/homeuser/kis2009/kis8.0.0.357en.exe) latest Kaspersky Internet Security 2009 8.0.0.357 and install.  
   
 7. Follow the instructions and when you get to the part where it ask you to activate the application, click Activate online. Just paste the activation code and click Next. You might need to create an account with Kaspersky as you’re entitled to product technical support. Enjoy having Kaspersky Internet Security 2009 on your computer for 365 days without paying a single cent!
-
-Did you enjoy this Post?.Please give your feedback at contact at gaurishsharma.com.
-Read more at GaurishSharma.com
