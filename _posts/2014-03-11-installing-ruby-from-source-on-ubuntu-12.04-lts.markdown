@@ -23,7 +23,7 @@ Compile & Install Ruby `v2.1.1`
 ```sh
 $ sudo apt-get -y install build-essential libssl-dev libffi-dev libyaml-dev \
 git libtool libxslt-dev libxml2-dev libpq-dev gawk curl pngcrush imagemagick \
-python-software-properties
+python-software-properties libreadline6 libreadline6-dev
 
 # If you're on Ubuntu >= 12.10, change:
 # python-software-properties to software-properties-common
