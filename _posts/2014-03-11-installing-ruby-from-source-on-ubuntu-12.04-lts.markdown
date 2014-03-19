@@ -17,6 +17,14 @@ Compile & Install Ruby `v2.1.1`
  - basic command line know-how
  - 15mins of your time
 
+## Step 0: Update your System
+It always a good idea to install all latest available patches for security & compatibility.
+
+```sh
+$ sudo apt-get update
+$ sudo apt-get upgrade -y
+```
+
 
 ## Step 1: Install required Dependancies
 
