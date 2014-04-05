@@ -1,4 +1,6 @@
 name: Gaurish Sharma Live | Sharing What I Have Learned
+description: Gaurish Sharma Live is a place where I Share My Learnings
+url: www.gaurishsharma.com
 markdown: redcarpet
 pygments: true
 permalink: /:year/:month/:title.html
