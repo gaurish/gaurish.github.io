@@ -3,7 +3,9 @@ layout: post
 title: Installing Ruby from Source on Ubuntu 12.04 LTS
 ---
 
-If you need to install ruby on server, I would suggest Compiling it from source because
+If you need to install ruby on server, I would suggest Compiling it from source because:
+
+
   - When Source gets compilied on machine, you can apply compiler optimizations & get best possible performance
   - Its a global install & available system side
   - Its easiest way to install ruby.
