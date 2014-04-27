@@ -8,10 +8,10 @@ This post is about Issue #11700 - Getting Rails Test Suite to run on Rails. Inca
 
 
 ## Prologue
-You are a ruby developer & want to run rails on anything other than CRuby/MRI which is the de-facto ruby implementation written in C. Reasons could the that you are having problems with GC, need fully multi-threaded env(no GVL/GIL) or you just curious like me. so, you research a bit & find that there is this thing called JRuby which is implemntation of ruby programming language that runs of battle-tested & rock solid JVM. JVM is the same VM which is used by Java
+You are a ruby developer & want to run rails on anything other than CRuby/MRI which is the de-facto ruby implementation written in C. Reasons could the that you are having problems with GC, need fully multi-threaded env(no GVL/GIL) or you just curious like me. so, you research a bit & find that there is this thing called JRuby which is implemntation of ruby programming language that runs of battle-tested & rock solid [JVM](http://en.wikipedia.org/wiki/Java_virtual_machine). JVM is the same VM which is used by Java & all other JVM based languages like scala, closure, JPython etc.
 
 ### Installing JRuby
-Installing JRuby seems seems quite simpler compared MRI/CRuby as its only dependancy of JRuby is the JVM. so, download latest JDK from oracle & download/install JRuby from jruby.org.
+Installing JRuby seems seems quite simpler compared MRI/CRuby as its only dependancy of JRuby is the JVM. so, download [JDK 7 from oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html) & [download/install JRuby from jruby.org](http://jruby.org/download)
 
 ### You liked JRuby
 lets assume you tried JRuby on Devloplement machine & liked JRuby because:
