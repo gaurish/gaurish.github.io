@@ -122,7 +122,7 @@ you can do this
 Post.where arel[:title].matches('%welcome%') #arel = Post.arel_table
 ```
 
-Will skip string examples for or brevity's sake
+Will skip string examples for brevity's sake
 #### Less Than Operator - `lt`
 
 ```ruby
@@ -201,7 +201,7 @@ As you can see above, Arel version reads better.
 
 
 ## Wrapping Up
-Arel full fledged query generator which genrate any SQL query. Should you use? Like all things in computer sceience. the answer is _it depends_ in the use-case.
+Arel full fledged query generator which generate any SQL query. Should you use? Like all things in computer science. the answer is _it depends_ in the use-case.
 
 1. SQL that ActiveRecord can generate: Use ActiveRecord.
 2. SQL that ActiveRecord can't generate but doesn't have dynamic conditional logic. Use Strings.
