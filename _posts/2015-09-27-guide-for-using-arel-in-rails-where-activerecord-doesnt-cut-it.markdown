@@ -159,11 +159,9 @@ Consider the following AR scope
 ```ruby
   scope : find_valid_phones_to_whom_we_can_text, -> { where(duplicate: false)
     .where("notification_type = 'mobile' OR notification_type = 'phone' OR notification_type = 'office_phone'")} do
+    # fetches only those records whose contact number is valid
     def whitelisted
-      # fetches only those records whose contact number is valid
       # contact number should not start from 800, (800)
-      # contact number should not be more than 10 characters
-      # contact number should not contain extension number like (1-2 x 2345)
       query = []
       # an array of numbers where we don't want to send sms
       BLACKLISTED_NUMBER_PREFIXES.each do |prefix|
@@ -173,6 +171,7 @@ Consider the following AR scope
           query << "(contact NOT LIKE '#{prefix}%' AND contact NOT LIKE '(#{prefix})%')"
         end
       end
+      # contact number should not be more than 10 characters
       query << "NOT length(contact) > 10"
 
       where(query.join(" AND "))
