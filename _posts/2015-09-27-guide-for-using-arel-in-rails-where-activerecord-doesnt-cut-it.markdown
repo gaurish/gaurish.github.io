@@ -76,7 +76,7 @@ As you might have guessed ActiveRecord doesn't support generating queries with a
 
 
 ### More operators that you might need:
-While working with SQL databases, you might feel the need to use the following operators. 
+While working with SQL databases, you might feel the need to use the following operators.
 
  1. **LIKE**:  used when to search a specific pattern
  2. **`<`(less than)**: Less than
@@ -93,7 +93,7 @@ But ActiveRecord doesn't support them. you could use "strings". But what if your
 4. **Less than or equal**: `lteq`
 5. **Greater than or equal**: `gteq`
 
-To be correct, [there are more](https://github.com/rails/arel/blob/master/lib/arel/predications.rb) but they are rarely used. 
+To be correct, [there are more](https://github.com/rails/arel/blob/master/lib/arel/predications.rb) but they are rarely used.
 
 Before we see each of the methods in details, lets first look on how to install/use ARel gem.
 
@@ -157,14 +157,16 @@ Consider the following AR scope
 **String version**
 
 ```ruby
-  scope : find_valid_phones_to_whom_we_can_text, -> { where(duplicate: false).where("notification_type = 'mobile' OR notification_type = 'phone' OR notification_type = 'office_phone'")} do
+  scope : find_valid_phones_to_whom_we_can_text, -> { where(duplicate: false)
+    .where("notification_type = 'mobile' OR notification_type = 'phone' OR notification_type = 'office_phone'")} do
     def whitelisted
       # fetches only those records whose contact number is valid
       # contact number should not start from 800, (800)
       # contact number should not be more than 10 characters
       # contact number should not contain extension number like (1-2 x 2345)
       query = []
-      BLACKLISTED_NUMBER_PREFIXES.each do |prefix| # an array of numbers where we don't want to send sms
+      # an array of numbers where we don't want to send sms
+      BLACKLISTED_NUMBER_PREFIXES.each do |prefix|
         if query.empty?
           query << "(contact NOT LIKE '#{prefix}%' AND contact NOT LIKE '(#{prefix})%')"
         else
@@ -178,16 +180,18 @@ Consider the following AR scope
   end
 ```
 
-**Arel Version** 
+**Arel Version**
 
 ```ruby
-  scope : find_valid_phones_to_whom_we_can_text, -> { where(duplicate: false).where(notification_type: ['mobile', 'phone', 'office_phone']) } do
+  scope : find_valid_phones_to_whom_we_can_text, -> { where(duplicate: false)
+    .where(notification_type: ['mobile', 'phone', 'office_phone']) } do
     # fetches only those records whose contact number is valid
     def whitelisted
       contact = Notification.arel_table[:contact]
       # contact number should not be more than 10 characters
       has_valid_length = Arel::Nodes::NamedFunction.new('length', [contact]).lteq(10)
-      where( contact.does_not_match_any(BLACKLISTED_NUMBER_PREFIXES) # contact number should not start from 800, 888 etc
+      # contact number should not start from 800, 888 etc
+      where( contact.does_not_match_any(BLACKLISTED_NUMBER_PREFIXES)
         .and( has_valid_length ))
     end
   end
@@ -203,7 +207,7 @@ Arel full fledged query generator which genrate any SQL query. Should you use? L
 2. SQL that ActiveRecord can't generate but doesn't have dynamic conditional logic. Use Strings.
 3. SQL that ActiveRecord can't generate & also have dynamic conditional logic based on paremeters: Use AREL as shown in the above real-world example
 
-To conclude, I would say Arel is tool that every rails developer should have in their toolbox. 
+To conclude, I would say Arel is tool that every rails developer should have in their toolbox.
 
 Lastly,
 This is a blog post written after an year's gap. so any feedback/comments/questions are welcome by tweeting to me at [@gaurish](https://twitter.com/gaurish)
