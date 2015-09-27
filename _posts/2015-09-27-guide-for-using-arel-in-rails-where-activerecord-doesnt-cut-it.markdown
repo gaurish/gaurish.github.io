@@ -201,7 +201,7 @@ As you can see above, Arel version reads better.
 
 
 ## Wrapping Up
-Arel full fledged query generator which generate any SQL query. Should you use? Like all things in computer science. the answer is _it depends_ in the use-case.
+Arel full fledged query generator which generate any SQL query. Should you use? Like all things in computer science. the answer is _it depends_ on the use-case.
 
 1. SQL that ActiveRecord can generate: Use ActiveRecord.
 2. SQL that ActiveRecord can't generate but doesn't have dynamic conditional logic. Use Strings.
