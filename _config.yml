@@ -7,3 +7,4 @@ url: http://www.gaurishsharma.com
 baseurl:
 plugins:
   - jekyll-gist
+  - jekyll-admin
