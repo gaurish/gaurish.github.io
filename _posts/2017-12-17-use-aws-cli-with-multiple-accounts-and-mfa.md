@@ -95,7 +95,7 @@ An IAM role is a authorization tool that lets a user gain additional permissions
 From Step 3, you should have have role arn which will be somewhat like this:`arn:aws:iam::222222222222:role/JumpAccountDeveloperAccess`
 
 ## Step 4 - Set Role ARN & MFA in AWS CLI
-The role arn of production aws account we have from #3 is `arn:aws:iam::222222222222:role/JumpAccountDeveloperAccess` & MFA serial number from step #2 is `arn:aws:iam::111111111111:mfa/gaurish`. Now all we got to do set these in `~/.aws/config` for production profile, then we will be able to access production using credentials "AWS Jump Account". this is how the config will will look after edits:
+The role arn of production aws account we have from #3 is `arn:aws:iam::222222222222:role/JumpAccountDeveloperAccess` & MFA serial number from step #2 is `arn:aws:iam::111111111111:mfa/gaurish`. Now all we got to do set these in `~/.aws/config` for production profile, then we will be able to access production using credentials "AWS Jump Account". this is how the config will look after edits:
 
 
 ```
