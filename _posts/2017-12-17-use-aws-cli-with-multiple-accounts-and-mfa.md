@@ -4,7 +4,7 @@ layout: post
 ---
 
 Hello Readers,
-I am back to blogging after gap of years. This is part of my new year resolution of executing on the my original vision for this blog - "Sharing what I have learned". Can't believe its been a decade. However, this new year will will give me fresh vigor to restart blogging. 
+I am back to blogging after gap of years. This is part of my new year resolution of executing on the my original vision for this blog - "Sharing what I have learned". Can't believe its been a decade. However, this new year will give me fresh vigor to restart blogging. 
 
 Back to Topic,
 The Use-Case that I would be explaining today makes following assumtions:
