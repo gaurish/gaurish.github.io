@@ -103,7 +103,7 @@ The role arn of production aws account we have from #3 is `arn:aws:iam::22222222
 region = us-east-1
 output = text
 [profile production]
-mfa_serial = arn:aws:iam::111111111111:mfa/gaurish@punchh.com
+mfa_serial = arn:aws:iam::111111111111:mfa/gaurish@gmail.com
 role_arn = arn:aws:iam::222222222222:role/JumpAccountDeveloperAccess
 region = us-east-1
 source_profile = default
