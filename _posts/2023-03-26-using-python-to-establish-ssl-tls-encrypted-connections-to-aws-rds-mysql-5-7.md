@@ -45,9 +45,14 @@ Next, we need to create a Python script that connects to our AWS RDS MySQL datab
 Replace the placeholders (`<db_username>`, `<db_password>`, `<db_endpoint>`, `<db_name>`) with your own values.
 Python code snippet above demonstrates how to establish a secure TLS connection to an Amazon Web Services (AWS) Relational Database Service (RDS) instance running MySQL 5.7. The code makes use of the ssl and mysql-connector-python libraries to establish the secure connection.
 
-The code begins by importing the necessary libraries and defining the credentials and endpoint of the AWS RDS instance to which the secure connection needs to be established. The next step is to create a custom SSL context that enforces secure communication by specifying a minimum version of TLS, and by optionally specifying the path to trusted CA certificates that will be used to verify the server's identity.
+The code begins by importing the necessary libraries and defining the credentials and endpoint of the AWS RDS instance to which the secure connection needs to be established. The next step is specifying the path to trusted CA certificates that will be used to verify the server's identity. This trusted CA certificate is provided by AWS RDS on their documentation page.
 
 Once the SSL context has been created, the mysql-connector-python library is used to create a connection object that uses the SSL context to establish a secure connection to the AWS RDS instance. The code then prints the version of the MySQL server that it has connected to, which serves as a confirmation that the secure connection has been established successfully.
+
+## Documentation Links
+
+- [AWS Doc - Using SSL/TLS to encrypt a connection to a DB instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html)
+- [Official docs for Python lib from Mysql](https://dev.mysql.com/doc/connector-python/en/connector-python-introduction.html)
 
 Hope this helps!
 
