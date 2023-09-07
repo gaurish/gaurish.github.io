@@ -31,7 +31,7 @@ Other Observations:
 
 Integration with Salesforce makes it a preferable option for businesses already using Salesforce.
 Relatively steeper learning curve for new users.
-Dell Boomi
+**Dell Boomi**
 
 Features:
 AtomSphere platform for cloud-to-cloud, SaaS-to-SaaS, cloud-to-on-premises, on-premises-to-on-premises and B2B integration.
@@ -46,7 +46,8 @@ Boomi's Insight feature provides AI-driven recommendations to assist users in bu
 Other Observations:
 Has a user-friendly drag-and-drop interface.
 Strong community and a vast library of pre-built connectors.
-Workato
+
+**Workato**
 
 **Features:**
 Recipe-based approach, where integrations are designed as recipes.
@@ -72,4 +73,4 @@ AI Capabilities: All three platforms are integrating AI in their offerings, but 
 
 Integration Needs: If a business is already using Salesforce or is planning to, MuleSoft might be a natural choice due to its tight integration. Dell Boomi and Workato offer a broad spectrum of connectors which makes them suitable for various integration scenarios.
 
-Conclusion: The best iPaaS solution largely depends on the specific needs and preferences of the enterprise. It's essential to analyze the existing IT landscape, integration requirements, and future scalability before making a decision.
+**Conclusion: **The best iPaaS solution largely depends on the specific needs and preferences of the enterprise. It's essential to analyze the existing IT landscape, integration requirements, and future scalability before making a decision.
